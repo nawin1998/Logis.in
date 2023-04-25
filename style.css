@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Labrada', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shantell Sans', cursive;
+}
+.Home{
+    position: relative;
+    background-image: url(images/bg-world.jpg);
+    background-attachment: fixed;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.Home h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #f6f1f1;
+    text-transform: uppercase;
+}
+.Home p{
+    
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #f8f5f5;
+}
+.outer{
+    position: relative;
+    background-image: url(images/cta-bg.jpg);
+    background-attachment: fixed;
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: hue hue-rotate(90deg);
+}
+.outer h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.outer p{
+    font-size: larger;
+    color: #ffffff;
+}
+.picture{
+    position: relative;
+    background-image: url(images/testimonials-bg.jpg);
+    background-attachment: fixed;
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1);
+}
+.carousel-inner{
+    height: 18rem;
+    width: 10rem;
+    
+}
+.carousel-item img{
+    height: 130px;
+    width: 130px;
+    margin-left: 38%;
+    margin-top: 5px;
+}
